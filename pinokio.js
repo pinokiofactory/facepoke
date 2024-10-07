@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "2.0",
   title: "facepoke",
-  description: "Select a portrait, click to move the head around https://github.com/jbilcke-hf/FacePoke",
+  description: "[NVIDIA Only] Select a portrait, click to move the head around https://github.com/jbilcke-hf/FacePoke",
   icon: "icon.gif",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
