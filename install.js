@@ -15,7 +15,7 @@ module.exports = {
         path: "app",
         message: [
           "uv pip install wheel",
-          "uv pip install -r requirements_base.txt --no-build-isolation"
+          "uv pip install -r requirements_base.txt --no-build-isolation --no-cache"
         ]
       }
     },
